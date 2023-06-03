@@ -1,0 +1,27 @@
+//1 уровень сложности: создайте три переменные типа
+// char, равные '0', разработайте подход для перевода
+// значения из char в int тремя способами по аналогии
+// подхода из лекции
+
+public class charHomeWork {
+    public static void main(String[] args) {
+        char q = '0';
+        char w = '0';
+        char e = '0';
+
+        // 1 способ
+        int qq = q;
+        System.out.println(q);
+
+        // 2 способ
+        String ww = String.valueOf(w);
+        int www = Integer.parseInt(ww);
+        System.out.println(w);
+
+        // 3 способ
+        int ee = Character.getNumericValue(e);
+        System.out.println(e);
+    }
+
+
+}
